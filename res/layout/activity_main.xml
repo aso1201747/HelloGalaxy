@@ -12,8 +12,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
+        android:layout_alignBaseline="@+id/btnOK"
+        android:layout_alignBottom="@+id/btnOK"
         android:layout_centerHorizontal="true"
         android:text="Cancel" />
 
@@ -27,12 +27,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText2"
-        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignBaseline="@+id/edtFamily"
+        android:layout_alignBottom="@+id/edtFamily"
         android:text="Family Name" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edtFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView1"
@@ -43,23 +43,23 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtFamily"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/edtFirst"
         android:layout_toRightOf="@+id/textView2"
         android:ems="10" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/edtFamily"
         android:text="OK" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txvMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
